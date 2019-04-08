@@ -61,7 +61,7 @@ public class TextoPlano {
             Escribirlinea.write(linea);
         } catch (IOException e) {
             e.printStackTrace();
-            System.out.println("archivo no encontrado");
+            System.out.println("Archivo no encontrado");
         } finally {
             if (EscribirFichero != null) {
                 try {
